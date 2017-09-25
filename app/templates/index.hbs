@@ -1,0 +1,19 @@
+<h1> Welcome to Q&A MessageBoard </h1>
+
+We hope you find the answers you are looking for.
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+
+<h1> Welcome to Q&A MessageBoard</h1>
+
+We hope you find the answers you are looking for.
+
+<ul>
+  {{#each model as |question|}}
+     {{question-tile question=question destroyQuestion="destroyQuestion"}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
