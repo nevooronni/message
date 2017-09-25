@@ -1,5 +1,3 @@
 <li>
-	{{edit-question question=question edit="edit"}}
-	<li>{{question.author}} <br> {{question.question}}</li>
-  <button {{action 'delete' question}}>Delete Question</button><br><br>
+	{{#link-to 'question' question.id}}{{question.author}} <br> {{question.question}}{{/link-to}}<br><br>
 </li>
