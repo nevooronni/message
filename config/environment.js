@@ -19,12 +19,12 @@ module.exports = function(environment) {
     },
 
     firebase: {
-    apiKey: "AIzaSyA_mO-bSw7VuOEXJ5ifIPHsoA0bxmcxxbY",
-    authDomain: "qa-messageboard-2a7bd.firebaseapp.com",
-    databaseURL: "https://qa-messageboard-2a7bd.firebaseio.com",
-    projectId: "qa-messageboard-2a7bd",
-    storageBucket: "qa-messageboard-2a7bd.appspot.com",
-    messagingSenderId: "489154154547"
+    apiKey: "AIzaSyD4X8em2YwmDIi2aMbKC7PUkY4zHCaAtC4",
+    authDomain: "message-afa0a.firebaseapp.com",
+    databaseURL: "https://message-afa0a.firebaseio.com",
+    projectId: "message-afa0a",
+    storageBucket: "",
+    messagingSenderId: "22119074382"
   },
 
     APP: {
